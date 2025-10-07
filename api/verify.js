@@ -9,7 +9,7 @@ export default function handler(req, res) {
   if (req.method === 'OPTIONS') return res.status(204).end();
 
   res.status(200).json({
-    status: "validated!!",
+    success: true",
     V2_Authentication: "success",
     message: "PandaV3 Loaded Successfully!"
   });
