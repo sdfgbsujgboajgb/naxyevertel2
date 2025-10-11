@@ -10,6 +10,9 @@ export default function handler(req, res) {
 
   res.status(200).json({
     "success":true,
-    "V2_Authentication":"success"
+    "V2_Authentication":"success",
+    "iv":0,
+    "rng":"0",
+    "sessionKey":"0"
   });
 }
